@@ -13,6 +13,7 @@ export const BasicBox = () => (
     width="300px"
     height="300px"
     mt="2"
+    p={2}
     backgroundColor="cardPrimaryBackground"
   />
 );
