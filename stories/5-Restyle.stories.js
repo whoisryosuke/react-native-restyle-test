@@ -9,7 +9,12 @@ export default {
 };
 
 export const BasicBox = () => (
-  <Box width="300px" height="300px" backgroundColor="cardPrimaryBackground" />
+  <Box
+    width="300px"
+    height="300px"
+    mt="2"
+    backgroundColor="cardPrimaryBackground"
+  />
 );
 export const BasicText = () => (
   <Text color="cardPrimaryBackground">Text here</Text>
